@@ -1,0 +1,14 @@
+{
+    "name": "append_to_all_attributes",
+    "version": "1.0.0",
+    "description": "Append a string to all attributes in the object passed",
+    "main": "index.js",
+    "scripts": {
+        "test": "ava"
+    },
+    "author": "Fabio Espinosa",
+    "license": "MIT",
+    "devDependencies": {
+        "ava": "^0.25.0"
+    }
+}
