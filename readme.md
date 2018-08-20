@@ -11,7 +11,7 @@ $ npm install append-to-all-attributes
 ## Usage
 
 ```js
-const appendToAllAttributes = require('append-to-all-attributes);
+const appendToAllAttributes = require('append-to-all-attributes');
 appendToAllAttributes({
     sanFrancisco_to_newYork: 50,
     madrid_to_barcelona: 5,
