@@ -22,3 +22,39 @@ test('append _triplet to object attributes', t => {
         }
     );
 });
+
+test('append _triplet to array', t => {
+    t.deepEqual(
+        appendToAllAttributes(
+            [
+                {
+                    cms: {
+                        status: 'GOOD',
+                        comment: '',
+                        cause: ''
+                    },
+                    csc: {
+                        status: 'BAD',
+                        comment: '',
+                        cause: ''
+                    }
+                }
+            ],
+            '_triplet'
+        ),
+        [
+            {
+                cms_triplet: {
+                    status: 'GOOD',
+                    comment: '',
+                    cause: ''
+                },
+                csc_triplet: {
+                    status: 'BAD',
+                    comment: '',
+                    cause: ''
+                }
+            }
+        ]
+    );
+});
