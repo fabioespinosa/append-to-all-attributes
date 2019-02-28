@@ -1,6 +1,6 @@
 {
     "name": "append-to-all-attributes",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Append a string to all attributes in the object passed",
     "main": "index.js",
     "scripts": {
